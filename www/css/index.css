@@ -1,0 +1,80 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+        -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FFF;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:40px 0 0 0;
+    text-transform:uppercase;
+    width:100%;
+    text-align: center;
+}
+
+#status {
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  font-size: 1.2em;
+}
+
+#chart {
+  text-align: center;
+}
+
+#chart svg {
+  border: 4px solid #000;
+  width:98%;
+  margin: 0 auto;
+}
+
+#chart h1 {
+  padding-left: 5px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  margin-top: 2px;
+  font-size: 40px;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:active {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #5895b8);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #5895b8);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #5895b8);
+  background-image: -o-linear-gradient(top, #3cb0fd, #5895b8);
+  background-image: linear-gradient(to bottom, #3cb0fd, #5895b8);
+  text-decoration: none;
+}
